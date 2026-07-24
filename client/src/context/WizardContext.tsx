@@ -30,9 +30,9 @@ const emptyFormData: PropertyFormData = {
   },
   contactDetails: {
     userRole: 'Owner',
-    name: '',
-    email: '',
-    phone: '',
+    name: 'Nandhini',
+    email: 'nandhini@magicbricks-ai.com',
+    phone: '+91 98765 43210',
     hidePhone: false,
     contactTime: 'Anytime between 9 AM - 9 PM',
   },

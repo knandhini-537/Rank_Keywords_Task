@@ -23,8 +23,8 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>({
     id: 'demo-user-123',
-    name: 'Sriram Owner',
-    email: 'sriram@magicbricks-ai.com',
+    name: 'Owner',
+    email: 'nandhini@magicbricks-ai.com',
     phone: '+91 98765 43210',
     userType: 'Owner',
   });
